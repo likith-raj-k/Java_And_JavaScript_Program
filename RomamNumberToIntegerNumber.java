@@ -5,7 +5,6 @@ public class RomamNumberToIntegerNumber {
     public static int romanToInt(String s) {
         int result = 0;
         int prevValue = 0;
-
         for (int i = s.length() - 1; i >= 0; i--) {
             char currentChar = s.charAt(i);
             int currentValue;
